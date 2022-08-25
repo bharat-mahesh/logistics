@@ -1,0 +1,36 @@
+.sbcontainer{
+    border-right: 0.1px solid rgb(231, 228, 228);
+    flex: 1;
+    height: 100%;
+    .top{
+        padding: 20px;
+        .logo{
+            color: blueviolet;
+            font-weight: bold;
+            font-size: larger;
+        }
+       
+    }
+    .container{
+        :hover{
+            background-color: aliceblue;
+            cursor: pointer;
+        }
+        .body{
+            align-items: center;
+            display: flex;
+            flex-direction: row;
+            padding-left:15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            
+            .icon{
+                color: blueviolet;
+                padding-right: 20px;
+            }
+            .text{
+                color: gray;
+            }
+        }
+    }
+}

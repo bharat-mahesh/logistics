@@ -1,0 +1,30 @@
+.home{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    .home-container{
+        flex: 6;
+        .widget{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        .charts{
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+        }
+        .list-c{
+        padding: 20px;
+        box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+        .list-title{
+            color: gray;
+            font-weight: 500;
+            margin-bottom: 10px;
+        }    
+        }
+    }
+}

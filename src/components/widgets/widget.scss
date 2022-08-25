@@ -1,0 +1,51 @@
+.wcontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.1); 
+    padding: 10px;
+    .left{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .title{
+            font-size: 14px;
+            color: rgb(160,160,160);
+            font-weight: bold;
+        }
+        .counter{
+            font-weight: 300;
+            font-size: 28px;
+        }
+        .link{
+            font-size: 12px;
+            text-decoration: underline;
+            cursor: pointer;
+            :hover{
+                color: blueviolet;
+            }
+        }
+        
+    }
+    .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .r-top{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            font-size: 14px;
+        }
+        .icon{
+            font-size: 18px;
+            border-radius: 5px;
+            align-self: flex-end;
+            justify-self: flex-end;
+
+        }
+    }
+}

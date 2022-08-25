@@ -1,0 +1,11 @@
+.transactions{
+    display: flex;
+    width: 100%;
+    .transaction-c{
+        flex:6;
+        h4{
+            color: gray;
+            padding: 15px;
+        }
+    }
+}

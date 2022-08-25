@@ -1,0 +1,36 @@
+.rates{
+    display: flex;
+    width: 100%;
+    .rates-c{
+        flex:6;
+        .button{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        .p-c{
+            display: flex;
+            flex-direction: row;
+            justify-content:safe;
+            align-items:center;
+            padding-top: 20px;
+            padding-left: 20px;
+            .itemname{
+                font-size: 25px;
+                padding-right: 20px;
+            }
+            .box{
+                border: 3px solid blueviolet;
+                border-radius: 10px;
+            }
+            .itemcur{
+                font-size: 25px;
+                margin-left: 20px;
+                
+            }
+           
+           
+        }
+    }
+}

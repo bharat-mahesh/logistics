@@ -1,0 +1,13 @@
+*{
+    margin: 0%;
+    font-family: 'Nunito',sans-serif;
+}
+html{
+    height: 100%
+}
+body{
+    min-height: 100%;
+}
+div#root{
+    height: 100vh;
+}

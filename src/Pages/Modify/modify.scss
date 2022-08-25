@@ -1,0 +1,24 @@
+.mod{
+    display: flex;
+    width: 100%;
+    .mod-c{
+        flex:6;
+        .top-button{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .headers{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .button{
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+    }
+}
